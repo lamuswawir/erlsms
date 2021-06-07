@@ -1,3 +1,3 @@
--define(Username, "muswawir").
--define(Password, "icui4cu").
--define(Sender, "story").
+-define(Username, "Username").
+-define(Password, "Password").
+-define(Sender, "Senser").
