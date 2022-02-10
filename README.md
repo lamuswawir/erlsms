@@ -7,7 +7,7 @@ Installation
 4. rebar3 shell (rebar3 must be installed)
 
 Usage:
-Set te username, password and senserid in ../include/sms.hrl. They are strings
+Set te username, password and sender in config/sys.config under the sms part. They are strings
 
 Example:
 erlsms_app:send("25678584308", "This tests if erlsms works").
