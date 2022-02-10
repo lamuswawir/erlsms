@@ -8,10 +8,12 @@
 
 -behaviour(application).
 
--include("../include/sms.hrl").
-
 -export([start/2, stop/1]).
 -export([send/2]).
+
+-define(Username, application:get_env(sms, username)).
+-define(Password, application:get_env(sms, password)).
+-define(Sender, application:get_env(sms, sender)).
 
 start(_StartType, _StartArgs) ->
     inets:start(),

@@ -1,3 +1,0 @@
--define(Username, "Username").
--define(Password, "Password").
--define(Sender, "Senser").
